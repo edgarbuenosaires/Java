@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/1. YoutubeJavaCourse/src/V11_Manipula_Cadenas.java"/>
+<listEntry value="/1.YJC/src/V11_Manipula_Cadenas.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="V11_Manipula_Cadenas"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="1. YoutubeJavaCourse"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="1.YJC"/>
 </launchConfiguration>
