@@ -1,0 +1,12 @@
+package ccyc12_HerenciaInterfaces;
+
+public abstract class Examen implements Aprobable {
+	private String fecha;
+
+	@Override
+	public boolean aprobo() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

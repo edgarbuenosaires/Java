@@ -1,0 +1,5 @@
+package tp1.tp1.ej01;
+
+public enum Resultados {
+	CURSO_INEX, USUARIO_INEX, YA_SUSCRIPTO, ES_AUTOR, MAX_BECADOS, SUSCRIPTO_OK
+}

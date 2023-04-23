@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ccyc06_integradorOop02.Sucursal"/>
+    <fullyQualifiedTypeName name="ccyc06_integradorOop02.Instrumento"/>
+    <fullyQualifiedTypeName name="ccyc02_vehiculos.Vehiculo"/>
+    <fullyQualifiedTypeName name="ccyc02_vehiculos.Auto"/>
+    <fullyQualifiedTypeName name="ccyc02_vehiculos.Moto"/>
+    <fullyQualifiedTypeName name="ccyc07_Oop03_herencia_baraja.Palo"/>
+    <fullyQualifiedTypeName name="ccyc07_Oop03_herencia_baraja_cartas.Carta"/>
+    <fullyQualifiedTypeName name="ccyc07_Oop03_herencia_baraja_cartas.CartaNumeral"/>
+    <fullyQualifiedTypeName name="ccyc07_Oop03_herencia_baraja_cartas.CartaFigura"/>
+    <fullyQualifiedTypeName name="ccyc07_Oop03_herencia_baraja_cartas.CartaJocker"/>
+    <fullyQualifiedTypeName name="ccyc08_Polimorfismo_TallerBicicletas.Bicicleta"/>
+    <fullyQualifiedTypeName name="ccyc08_Polimorfismo_TallerBicicletas.BicicletaElectrica"/>
+    <fullyQualifiedTypeName name="ccyc09_Polimorfismo_EmpleadoSalario.EmpleadoSalarioFijo"/>
+    <fullyQualifiedTypeName name="tp1.tp1.ej01.Resultados"/>
+    <fullyQualifiedTypeName name="tp1.tp1.ej10.Resultado"/>
+    <fullyQualifiedTypeName name="tp1.tp3.ej05.Archivo"/>
+    <fullyQualifiedTypeName name="tp1.tp3.ej05.ArchivoTexto"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="tp1.tp3.ej08_empleados.Empresa"/>
+    <fullyQualifiedTypeName name="tp1.tp3.ej08_empleados.Empleado"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ccyc12_HerenciaInterfaces.Alumno"/>
+    <fullyQualifiedTypeName name="ccyc12_HerenciaInterfaces.ExamenEscrito"/>
+    <fullyQualifiedTypeName name="ccyc12_HerenciaInterfaces.ExamenOral"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,37 @@
+package tp1.tp3.ej08;
+
+public class EmpSalFijo extends Empleado {
+
+	private double sueldoBasico;
+	private double porcAdicional;
+
+	public EmpSalFijo(String nombre, String apellido, int anioIngreso, double sueldoBasico, double porcAdicional) {
+		super(nombre, apellido, anioIngreso);
+		this.sueldoBasico = sueldoBasico;
+		this.porcAdicional = porcAdicional;
+	}
+
+	@Override
+	public double obtenerSalario() {
+		return this.sueldoBasico + adicionalPorAnti();
+	}
+
+	private double adicionalPorAnti() {
+		return this.sueldoBasico * this.porcentajeAdicional();
+	}
+
+	private double porcentajeAdicional() {
+		double porcAdic;
+		if (super.getAntiguedad() < 2) {
+			porcAdic = 0;
+		} else if (super.getAntiguedad() <= 5) {
+			porcAdic = 0.05;
+		} else if (super.getAntiguedad() <= 10) {
+			porcAdic = 0.10;
+		} else {
+			porcAdic = 0.15;
+		}
+		return porcAdic;
+	}
+
+}

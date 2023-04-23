@@ -1,0 +1,7 @@
+package ccyc10_Interface_AveTelMovil;
+
+public class TelefonoMovil extends Dispositivo {
+	public void llamar() {
+		System.out.println("Llamando....");
+	}
+}

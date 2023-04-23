@@ -1,0 +1,15 @@
+package tp1.tp3.ej08;
+
+public class EmpSalComision extends Empleado {
+
+	private final static double SALARIO_MIN = 20000;
+	private int nroClientes;
+	private double montoPorCliente;
+
+	public EmpSalComision(String nombre, String apellido, int anioIngreso, int nroClientes, double montoPorCliente) {
+		super(nombre, apellido, anioIngreso);
+		this.nroClientes = nroClientes;
+		this.montoPorCliente = montoPorCliente;
+	}
+
+}

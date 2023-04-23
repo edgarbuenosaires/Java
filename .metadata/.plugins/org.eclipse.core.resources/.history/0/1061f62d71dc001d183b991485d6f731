@@ -1,0 +1,49 @@
+package tp1.tp3.ej05;
+
+import java.util.ArrayList;
+
+public class Computadora {
+	private ArrayList<Archivo> archivos;
+
+	public Computadora() {
+		super();
+		this.archivos = new ArrayList<>();
+	}
+
+	public void agregarArchivo(Archivo a) {
+		this.archivos.add(a);
+	}
+
+	public void mostrarArchivos() {
+		for (Archivo archivo : archivos) {
+			System.out.println(archivo);
+		}
+	}
+
+	public void cerrarTodos() {
+		for (Archivo archivo : archivos) {
+			if (archivo.estaAbierto()) {
+				archivo.cerrar();
+			}
+		}
+	}
+
+	public int cantidadArchivosDeTexto() {
+		int cont = 0;
+		for (Archivo archivo : archivos) {
+			if (archivo instanceof ArchivoTexto) {
+				cont++;
+			}
+		}
+		return cont;
+	}
+
+	public void cifrarArchivos() {
+		for (Archivo archivo : archivos) {
+			if (archivo instanceof ArchivoTexto && ((ArchivoTexto) archivo).esUTF8()) {
+				System.out.println("Es UTF 8");
+			}
+
+		}
+	}
+}

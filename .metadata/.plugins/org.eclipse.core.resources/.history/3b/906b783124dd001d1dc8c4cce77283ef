@@ -1,0 +1,54 @@
+package tp1.tp3.ej08;
+
+import java.util.ArrayList;
+
+public class Empresa {
+	private String nombre;
+	private ArrayList<Empleado> empleados;
+
+	public Empresa() {
+		super();
+		this.empleados = new ArrayList<>();
+	}
+
+	public void agregarEmpleado(Empleado e) {
+		if (e != null) {
+			empleados.add(e);
+
+		}
+	}
+
+	public void mostrarSalarios() {
+		for (Empleado e : empleados) {
+			e.mostrarDatos();
+		}
+	}
+
+	public Empleado empleadoConMasClientes() {
+		Empleado empConMasClientes = null;
+		int cont = 0;
+		int clientes;
+		for (Empleado e : empleados) {
+			clientes = e.getClientes();
+			if (clientes > cont) {
+				cont = clientes;
+				empConMasClientes = e;
+			}
+		}
+		return empConMasClientes;
+	}
+
+	public void mostrarEmpleadoConMasClientes() {
+		if (empleadoConMasClientes() != null) {
+			System.out.println("El empleado con mas clientes es: " + empleadoConMasClientes());
+
+		} else {
+			System.out.println("Ningun empleado tiene clientes cautivos.");
+		}
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+}

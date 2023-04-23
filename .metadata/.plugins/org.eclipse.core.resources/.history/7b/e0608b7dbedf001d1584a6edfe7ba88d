@@ -1,0 +1,6 @@
+package ccyc11_Interfaces_Default;
+
+public interface Identificable {
+public abstract void mostrarIdentificacion();
+}
+

@@ -1,0 +1,39 @@
+package tp1.tp3.ej08_empleados;
+
+import java.time.LocalDate;
+
+public abstract class Empleado {
+	private String DNI;
+	private String nombre;
+	private String apellido;
+	private int anioIngreso;
+
+	public Empleado(String nombre, String apellido, int anioIngreso) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.anioIngreso = anioIngreso;
+	}
+
+	public abstract double obtenerSalario();
+
+	public void mostrarDatos() {
+		System.out.println("Empleado " + this.nombre + " " + this.apellido + this.obtenerSalario());
+	}
+
+	public int getAnioIngreso() {
+		return anioIngreso;
+	}
+
+	public int getAntiguedad() {
+		return LocalDate.now().getYear() - this.anioIngreso;
+	}
+
+	public int getClientes() {
+		if (this instanceof EmpSalComision) {
+			EmpSalComision emp = (EmpSalComision) this;
+			emp.getClientes();
+		}
+		return 0;
+	}
+}

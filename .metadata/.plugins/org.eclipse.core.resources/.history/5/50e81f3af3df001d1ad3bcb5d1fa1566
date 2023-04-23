@@ -1,0 +1,10 @@
+package ccyc12_HerenciaInterfaces;
+
+public class ExamenOral extends Examen {
+
+	private NivelSatisfaccion nivelSatisfaccion;
+
+	public boolean aprobo() {
+		return false;
+	}
+}

@@ -1,0 +1,12 @@
+package ccyc12_HerenciaInterfaces;
+
+import java.util.ArrayList;
+
+public class CentroEducativo {
+	private ArrayList<Alumno> alumnos;
+
+CentroEducativo(){
+	this.alumnos=new ArrayList<>()
+}
+
+}

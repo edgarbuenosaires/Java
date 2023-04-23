@@ -1,0 +1,8 @@
+package ccyc10_Interface_AveTelMovil;
+
+public class Principal {
+	public static void main(String[] args) {
+		PartidoDelBuenCodigo p = new PartidoDelBuenCodigo();
+		p.hacerCampania();
+	}
+}

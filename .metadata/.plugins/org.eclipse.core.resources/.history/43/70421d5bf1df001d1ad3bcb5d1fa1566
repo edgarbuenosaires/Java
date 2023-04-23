@@ -1,0 +1,11 @@
+package ccyc12_HerenciaInterfaces;
+
+public class Alumno implements Aprobable {
+	private String DNI;
+	private String apellido;
+	private String nombre;
+
+	public boolean aprobo() {
+		return false;
+	}
+}
