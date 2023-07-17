@@ -19,7 +19,7 @@ public abstract class Empleado {
 	public abstract double getSalario();
 
 	public void mostrarDatos() {
-		System.out.println(nombreCompleto() + " $" + getSalario());
+		System.out.println(nombreCompleto() + " $" + "" + getSalario() + "\n");
 	}
 
 	private String nombreCompleto() {

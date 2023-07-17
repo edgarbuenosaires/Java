@@ -1,5 +1,0 @@
-package tp1.parcial1.licencDeConducir;
-
-public class Auto extends Vehiculo {
-	private int cantPurtas;
-}

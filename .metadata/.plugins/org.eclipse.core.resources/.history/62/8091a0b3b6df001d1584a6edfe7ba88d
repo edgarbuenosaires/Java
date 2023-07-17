@@ -1,6 +1,0 @@
-package ccyc10_Interface_AveTelMovil;
-
-public interface EnviadorDeMensaje {
-	public abstract void enviarMensaje(String mensaje);
-
-}

@@ -4,6 +4,11 @@ public class BicicletaElectrica extends Bicicleta {
 	private final static int MAX_POT = 250;
 	private int potencia;
 
+	public BicicletaElectrica(String marca, String modelo, int cantKm, int potencia) {
+		super(marca, modelo, cantKm);
+		this.potencia = potencia;
+	}
+
 //	public boolean cumpleRequisitos() {
 //		return this.potencia < MAX_POT;
 //	}

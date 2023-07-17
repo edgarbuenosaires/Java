@@ -1,8 +1,0 @@
-package ccyc11_Interfaces_Default;
-
-public class Principal {
-	Persona p = new Persona();
-	Reserva r = new Reserva();
-	Automovil a = new Automovil();
-
-}

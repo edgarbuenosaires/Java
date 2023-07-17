@@ -1,6 +1,0 @@
-package ccyc12_HerenciaInterfaces;
-
-public class ExamenEscrito extends Examen {
-
-	private final int MIN_NOTA = 0;
-private final int MAX_NOTA = 10;}

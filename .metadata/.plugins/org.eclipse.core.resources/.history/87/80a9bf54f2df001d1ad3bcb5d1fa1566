@@ -1,8 +1,0 @@
-package ccyc12_HerenciaInterfaces;
-
-public class ExamenOral extends Examen {
-
-	public boolean aprobo() {
-		return false;
-	}
-}

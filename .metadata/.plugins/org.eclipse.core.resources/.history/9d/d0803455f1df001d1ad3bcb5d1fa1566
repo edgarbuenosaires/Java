@@ -1,6 +1,0 @@
-package ccyc12_HerenciaInterfaces;
-
-public class Examen {
-	private String fecha;
-
-}

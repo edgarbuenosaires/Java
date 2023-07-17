@@ -6,6 +6,13 @@ public class Bicicleta {
 	private String modelo;
 	private int cantKm;
 
+	public Bicicleta(String marca, String modelo, int cantKm) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.cantKm = cantKm;
+	}
+
 	public boolean cumpleRequisitos() {
 		return this.cantKm < MAX_KMS;
 	}

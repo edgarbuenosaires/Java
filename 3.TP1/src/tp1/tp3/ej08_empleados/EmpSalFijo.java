@@ -21,6 +21,7 @@ public class EmpSalFijo extends Empleado {
 
 	private double porcentajeAdicional() {
 		double porcAdic;
+		
 		if (super.getAniosDeAntiguedad() < 2) {
 			porcAdic = 0;
 		} else if (super.getAniosDeAntiguedad() <= 5) {
