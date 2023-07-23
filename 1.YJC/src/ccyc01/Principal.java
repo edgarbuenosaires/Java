@@ -6,7 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("Cuanto vale cada articulo?");
+		System.out.println("Cuanto vale cada ARTICULO?");
 		double valorUnitario = input.nextDouble();
 		System.out.println("Cuantos articulos se vendieron en el mes?");
 		int cantVendida = input.nextInt();
