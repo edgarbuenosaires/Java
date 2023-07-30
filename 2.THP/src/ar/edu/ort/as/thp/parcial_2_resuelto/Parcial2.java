@@ -1,7 +1,4 @@
-package parcial2;
-
-import parcial2.clases.Categoria;
-import parcial2.clases.Materia;
+package ar.edu.ort.as.thp.parcial_2_resuelto;
 
 public class Parcial2 {
 

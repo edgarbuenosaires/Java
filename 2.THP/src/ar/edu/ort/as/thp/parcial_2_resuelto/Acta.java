@@ -1,4 +1,4 @@
-package parcial2.clases;
+package ar.edu.ort.as.thp.parcial_2_resuelto;
 
 import java.util.ArrayList;
 
